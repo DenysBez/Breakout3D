@@ -1,0 +1,100 @@
+# =============== #
+# Unity generated #
+# =============== #
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# User-specific Unity settings
+Library/
+Temp/
+Logs/
+Obj/
+MemoryCaptures/
+
+# Build files
+Builds/
+Build/
+[Bb]uilds/
+[Bb]uild/
+
+# Auto-generated VS/IDE files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+*.aps
+*.aps.meta
+
+# Rider/JetBrains specific
+.idea/
+*.iml
+*.sln.iml
+
+# Other IDEs
+.vscode/
+*.code-workspace
+
+# Unity metadata
+*.asset
+*.mat
+*.meta
+*.prefab
+*.unity
+
+# Cache files
+bin/
+obj/
+Temp/
+
+# Logs and crash reports
+*.log
+*.tlog
+*.dmp
+*.stacktrace
+
+# Generated lightmaps
+LightmapSnapshot/
+LightingData.asset
+
+# Cache and video files
+Cache/
+Movies/
+
+# Build pipeline
+*.apk
+*.aab
+*.unitypackage
+*.ipa
+*.obb
+*.app
+
+# TextMeshPro
+[Tt]extMeshPro/
+
+# Addressables
+Assets/AddressableAssetsData/*/*.bin*
+Assets/StreamingAssets/*.bin*
+
+# Custom settings
+UserSettings/
+*.csproj
+
+# Plastic SCM
+.ignore
+attributes
+writable.metadat
+
+# Unity Collaborate
+Collab/
+
