@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 public class LevelGenerator : MonoBehaviour
 {
     public Vector3Int size;

@@ -3,6 +3,9 @@ using UnityEngine;
 using TMPro;
 public class BouncyBall : MonoBehaviour
 {
+    [SerializeField] private AudioSource collisionAudio;
+    [SerializeField] private AudioSource destroyedBrickAudio;
+
     private Vector3 initialPosition;
     public float minY = -5.5f;
     public float maxVelocity = 15f;
@@ -61,6 +64,16 @@ public class BouncyBall : MonoBehaviour
                 youWinPanel.SetActive(true);
                 Time.timeScale = 0;
             }
+
+            if (destroyedBrickAudio != null)
+            {
+                destroyedBrickAudio.Play();
+            }
+        }
+        
+        if (collisionAudio != null)
+        {
+            collisionAudio.Play();
         }
         
         Rigidbody rb = GetComponent<Rigidbody>();
