@@ -15,11 +15,14 @@ public class BouncyBall : MonoBehaviour
     public GameObject[] livesImage;
 
     public GameObject gameOverPanel;
+    public GameObject youWinPanel;
+    int brickCount;
     
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         initialPosition = transform.position; 
+        brickCount = FindObjectOfType<LevelGenerator>().transform.childCount;
     }
 
     void Update()
@@ -52,10 +55,16 @@ public class BouncyBall : MonoBehaviour
             Destroy(other.gameObject);
             score += 10;
             scoreText.text = score.ToString("00000");
+            brickCount--;
+            if (brickCount <= 0)
+            {
+                youWinPanel.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
         
         Rigidbody rb = GetComponent<Rigidbody>();
-        Vector3 bounceForce = Vector3.up * 10f;
+        Vector3 bounceForce = Vector3.up * 15f;
         rb.AddForce(bounceForce, ForceMode.Impulse);
     }
 
