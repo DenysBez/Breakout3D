@@ -1,6 +1,8 @@
 using System;
 using UnityEngine;
 using TMPro;
+using Random = UnityEngine.Random;
+
 public class BouncyBall : MonoBehaviour
 {
     [SerializeField] private AudioSource collisionAudio;
@@ -77,7 +79,8 @@ public class BouncyBall : MonoBehaviour
         }
         
         Rigidbody rb = GetComponent<Rigidbody>();
-        Vector3 bounceForce = Vector3.up * 15f;
+        float randomX = Random.Range(-3f, 3f); // Slight random movement to the left or right
+        Vector3 bounceForce = new Vector3(randomX, 12f, 0f); 
         rb.AddForce(bounceForce, ForceMode.Impulse);
     }
 
