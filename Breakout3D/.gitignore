@@ -1,100 +1,45 @@
-# =============== #
-# Unity generated #
-# =============== #
+# Unity generated files
+# User-specific files
+UserSettings/
 
-# OS-specific files
-.DS_Store
-Thumbs.db
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]istro/
+Build/
+Builds/
 
-# User-specific Unity settings
+# User-specific files (Windows/Mac/Linux)
+.idea/
+.vscode/
+.vs/
+.vs2019/
+.vs2017/
+
+# Unity Cache
 Library/
 Temp/
-Logs/
 Obj/
-MemoryCaptures/
 
-# Build files
-Builds/
-Build/
-[Bb]uilds/
-[Bb]uild/
-
-# Auto-generated VS/IDE files
-*.csproj
-*.unityproj
-*.sln
+# Asset meta files
+*.pidb
 *.suo
-*.tmp
 *.user
 *.userprefs
-*.pidb
+*.unityproj
 *.booproj
 *.svd
-*.pdb
-*.opendb
-*.VC.db
-*.aps
-*.aps.meta
-
-# Rider/JetBrains specific
-.idea/
-*.iml
-*.sln.iml
-
-# Other IDEs
 .vscode/
-*.code-workspace
 
-# Unity metadata
-*.asset
-*.mat
-*.meta
-*.prefab
-*.unity
-
-# Cache files
-bin/
-obj/
-Temp/
-
-# Logs and crash reports
+# Log files
 *.log
-*.tlog
-*.dmp
-*.stacktrace
 
-# Generated lightmaps
-LightmapSnapshot/
-LightingData.asset
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
 
-# Cache and video files
-Cache/
-Movies/
-
-# Build pipeline
-*.apk
-*.aab
-*.unitypackage
-*.ipa
-*.obb
-*.app
-
-# TextMeshPro
-[Tt]extMeshPro/
-
-# Addressables
-Assets/AddressableAssetsData/*/*.bin*
-Assets/StreamingAssets/*.bin*
-
-# Custom settings
-UserSettings/
-*.csproj
-
-# Plastic SCM
-.ignore
-attributes
-writable.metadat
-
-# Unity Collaborate
-Collab/
+# Unity auto-generated files
+sysinfo.txt
 
