@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{543b75c4-8b4e-867a-001c-63d2e0256570}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BzKovSoft.RagdollHelper.Editor", "BzKovSoft.RagdollHelper.Editor.csproj", "{06ad90d7-edea-e768-a0df-deb3dd5260a7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URPWizard", "URPWizard.csproj", "{2db60d81-e66c-1d63-39de-56e557609995}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,6 +14,10 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{543b75c4-8b4e-867a-001c-63d2e0256570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{543b75c4-8b4e-867a-001c-63d2e0256570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06ad90d7-edea-e768-a0df-deb3dd5260a7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06ad90d7-edea-e768-a0df-deb3dd5260a7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2db60d81-e66c-1d63-39de-56e557609995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2db60d81-e66c-1d63-39de-56e557609995}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
